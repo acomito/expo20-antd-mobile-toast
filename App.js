@@ -4,7 +4,8 @@ import { Button, Toast } from 'antd-mobile';
 
 export default class App extends React.Component {
   onClick = () => {
-     Toast.info('This is a toast tips !!!', 1);
+     //Toast.info('This is a toast tips !!!', 1);
+     console.log('no toast, no problem')
   }
   render() {
     return (
